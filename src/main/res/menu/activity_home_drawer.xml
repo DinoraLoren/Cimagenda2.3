@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single" />
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_agenda"
+            android:title="@string/agenda" />
+        <item
+            android:id="@+id/nav_horario"
+            android:icon="@drawable/ic_horario"
+            android:title="@string/horario" />
+        <item
+            android:id="@+id/nav_calendario"
+            android:icon="@drawable/ic_calendario"
+            android:title="@string/calendario" />
+        <item
+            android:id="@+id/nav_materias"
+            android:icon="@drawable/ic_materias"
+            android:title="@string/materias" />
+
+        <item
+            android:id="@+id/nav_usuario"
+            android:icon="@drawable/ic_usuario"
+            android:title="@string/usuario" />
+
+</menu>
